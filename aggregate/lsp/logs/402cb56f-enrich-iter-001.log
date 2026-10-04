@@ -1,0 +1,15 @@
+[2026-10-04T14:37:46Z] === ENRICH ITERATION 1 START | repo=modelcontextprotocol/ruby-sdk sha=402cb56f ===
+[2026-10-04T14:37:46Z] [iter=1] PHASE START: enrich repo=modelcontextprotocol/ruby-sdk sha=402cb56f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/402cb56f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/402cb56f99f9a3203eb50bacf79e4cfe1baedfd6.nq.gz
+[2026-10-04T14:38:06Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-04T14:38:19Z] [iter=1] AST store loaded triples=1733653 load_secs=13 mem_mb=972 MB
+[2026-10-04T14:38:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=972 MB
+[2026-10-04T14:38:41Z] [iter=1] LSP targets found call_sites=23830 imports=0 extends=0 implements=0 secs=22
+[2026-10-04T14:39:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=972 MB
+[2026-10-04T14:39:11Z] [iter=1] Position index built positions=110094 nodes_with_types=136302 secs=11 mem_mb=972 MB
+[2026-10-04T14:39:11Z] [iter=1] Step 3: Starting LSP resolution mem_mb=972 MB already_completed_types=[] already_completed_files=0
+[2026-10-04T14:39:11Z] [iter=1] Resolving target type target_type=call_site count=23830
+[2026-10-04T14:39:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=0 resolved=0 errors=23830 current=bin/generate-gh-pages.sh
+[2026-10-04T14:39:19Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=23830 secs=8 mem_mb=972 MB
+[2026-10-04T14:39:22Z] [iter=1] Step 5: Writing final enrichment file triples=87
+[2026-10-04T14:39:22Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/402cb56f99f9a3203eb50bacf79e4cfe1baedfd6.nq.gz size_kb=1
+[2026-10-04T14:39:22Z] [iter=1] PHASE END: enrich elapsed_s=95 elapsed_min=1.6 total_triples=87

@@ -250,6 +250,180 @@
       ],
       "ast": [
         "aggregate/ast/402cb56f99f9a3203eb50bacf79e4cfe1baedfd6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/402cb56f99f9a3203eb50bacf79e4cfe1baedfd6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rubocop-minitest",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.39.0",
+          "githubOrg": "rubocop",
+          "githubRepo": "rubocop-minitest",
+          "githubCommit": "0f1a4f664a310cb500e72d927193be9a4a129f3e",
+          "githubTag": "v0.39.0",
+          "githubUrl": "https://github.com/rubocop/rubocop-minitest",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rubocop-rake",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.7.1",
+          "githubOrg": "rubocop",
+          "githubRepo": "rubocop-rake",
+          "githubCommit": "d6fa128cd06ccd5746f56027044465b60f3e57b7",
+          "githubTag": "v0.7.1",
+          "githubUrl": "https://github.com/rubocop/rubocop-rake",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rubocop-shopify",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.18",
+          "githubOrg": "Shopify",
+          "githubRepo": "ruby-style-guide",
+          "githubUrl": "https://github.com/Shopify/ruby-style-guide/tree/v3.1.0",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "puma",
+          "ecosystem": "RUBYGEMS",
+          "version": "5.0.0",
+          "githubOrg": "puma",
+          "githubRepo": "puma",
+          "githubCommit": "13e18e8078c800adfc52af687acc1d8de5f3988d",
+          "githubTag": "v5.0.0",
+          "githubUrl": "https://github.com/puma/puma",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rackup",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.1.0",
+          "githubOrg": "rack",
+          "githubRepo": "rackup",
+          "githubCommit": "eaea24a3d64a1b117df943a9d06779e659bb61af",
+          "githubTag": "v2.1.0",
+          "githubUrl": "https://github.com/rack/rackup.git",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "activesupport",
+          "ecosystem": "RUBYGEMS",
+          "version": "8.1.4",
+          "githubOrg": "rails",
+          "githubRepo": "rails",
+          "githubCommit": "c3466ea00d7121798e3aa3144ffdf7174b81d8cb",
+          "githubTag": "v8.1.4",
+          "githubUrl": "https://github.com/rails/rails/tree/v8.1.4/activesupport",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "debug",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.11.1",
+          "githubOrg": "ruby",
+          "githubRepo": "debug",
+          "githubCommit": "bad4d38f8330219b62f2b253d59146f5a71fd39a",
+          "githubTag": "v1.11.1",
+          "githubUrl": "https://github.com/ruby/debug",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "i18n",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.15.0",
+          "githubOrg": "ruby-i18n",
+          "githubRepo": "i18n",
+          "githubCommit": "78fa20aa9a4f8d3632fc5c0e146aaca73fdea098",
+          "githubTag": "v1.15.0",
+          "githubUrl": "https://github.com/ruby-i18n/i18n",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "rake",
+          "ecosystem": "RUBYGEMS",
+          "version": "13.0",
+          "githubOrg": "ruby",
+          "githubRepo": "rake",
+          "githubUrl": "https://github.com/ruby/rake",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "sorbet-static-and-runtime",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.6.13528",
+          "githubOrg": "sorbet",
+          "githubRepo": "sorbet",
+          "githubUrl": "https://github.com/sorbet/sorbet",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "yard",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.9",
+          "githubOrg": "lsegal",
+          "githubRepo": "yard",
+          "githubUrl": "https://github.com/lsegal/yard",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "yard-sorbet",
+          "ecosystem": "RUBYGEMS",
+          "version": "0.9",
+          "githubOrg": "dduugg",
+          "githubRepo": "yard-sorbet",
+          "githubUrl": "https://github.com/dduugg/yard-sorbet",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "event_stream_parser",
+          "ecosystem": "RUBYGEMS",
+          "version": "1.0",
+          "githubOrg": "Shopify",
+          "githubRepo": "event_stream_parser",
+          "githubUrl": "https://github.com/Shopify/event_stream_parser",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "faraday",
+          "ecosystem": "RUBYGEMS",
+          "version": "2.0",
+          "githubOrg": "lostisland",
+          "githubRepo": "faraday",
+          "githubUrl": "https://github.com/lostisland/faraday",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "minitest",
+          "ecosystem": "RUBYGEMS",
+          "version": "5.1",
+          "githubOrg": "minitest",
+          "githubRepo": "minitest",
+          "githubUrl": "https://github.com/minitest/minitest",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "mocha",
+          "ecosystem": "RUBYGEMS",
+          "version": "3.1.0",
+          "githubOrg": "freerange",
+          "githubRepo": "mocha",
+          "githubCommit": "3d08feaec4b171873ca30020e19903486614bc16",
+          "githubTag": "v3.1.0",
+          "githubUrl": "https://github.com/freerange/mocha",
+          "source": "build_file:Gemfile"
+        },
+        {
+          "packageName": "webmock",
+          "ecosystem": "RUBYGEMS",
+          "version": "3.26.4",
+          "githubOrg": "bblimke",
+          "githubRepo": "webmock",
+          "githubCommit": "0fdbad0846d044af30f4b46f5e1f2be1a29ab8ec",
+          "githubTag": "v3.26.4",
+          "githubUrl": "https://github.com/bblimke/webmock/tree/v3.26.4",
+          "source": "build_file:Gemfile"
+        }
       ]
     }
   ],
