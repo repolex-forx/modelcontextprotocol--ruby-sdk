@@ -1,0 +1,11 @@
+{
+  "org": "modelcontextprotocol",
+  "repo": "ruby-sdk",
+  "versions": [
+    {
+      "commit": "402cb56f99f9a3203eb50bacf79e4cfe1baedfd6",
+      "tag": "main",
+      "parsed_at": "2026-10-04T14:41:00.644164+00:00"
+    }
+  ]
+}
